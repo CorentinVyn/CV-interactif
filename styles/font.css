@@ -1,0 +1,168 @@
+*, ::before, ::after{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+.fond{
+    
+    background-color: rgb(104, 134, 111);
+    max-width:2000px; 
+    min-height:100%; 
+    margin:0 auto; 
+    position:relative;
+
+}
+
+.logo:hover{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+    } 
+
+img{
+    background-image: none;
+}
+
+.photopresentation{
+    text-align: center;
+    padding-top: 50px;
+
+}
+.presentation{
+    position:absolute;
+    top:100px;
+    right:300px;
+    background-color: rgba(0, 0, 0, 0.562);
+    color:white;
+    width: 800px;
+    height:400px;
+
+}
+
+.presentation p{
+    font-size: 20px;
+    padding-top: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*logo + texte*/
+
+
+
+.experiencematch,
+.experiencecasto,
+.experiencelouise,
+.etude,
+.lycee,
+.mespassions,
+.mapersonnalite,
+.jeuxvideos{
+    display: none;
+    background-image: none;
+    margin-left:5%;
+    margin-top:10px;
+    margin-bottom: 30px;
+}
+
+.explication{
+
+    width:95%;
+    background-color: rgba(0, 0, 0, 0.76);
+    font-size: 20px;
+    color:white;
+    height: 340px;
+    padding-left:630px ;
+
+    padding-right: 30px;
+    padding-top: 10px;
+
+
+}
+
+.image{ 
+    display: flex;
+    justify-content: space-between;
+    background-image: none;
+    padding-top: 50px;
+}
+
+.logoetudes, .logoexperiences, .logomapersonne{
+    background-image: none;
+    padding: 30px;
+    display: table;
+}
+
+figcaption {
+    border-bottom: none;
+    display: table-caption;
+    caption-side: top;
+    color:white;
+    background-image: none;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+  }
+
+/* Slider */
+#slider,
+#slider2,
+#slider3{
+    position:absolute;
+    display:flex;
+    align-items: center;
+    width: 604px;
+}
+
+
+#suivant, #precedent{
+    font-size:70px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.637);
+    color:white;
+    text-align: center;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+#suivant:hover, #precedent:hover{
+    background-color: rgba(0, 0, 0, 0.863);
+}
+
+#precedent{
+    left:0;
+}
+#suivant{
+    right:0;
+}
+.logoetpresentation{
+    position: relative;
+    top:40%;
+}
+/* Footer */
+footer{
+    width:100%;
+    position:absolute; 
+    bottom:0; 
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(75, 95, 79); 
+    color:white;
+}
+
+.desc{
+    display: flex;
+    padding: 10px;
+}
